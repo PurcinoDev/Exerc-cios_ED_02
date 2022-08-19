@@ -10,8 +10,8 @@ public class BinarioController {
 		if (n <= 0) {
 			return "0";
 		} else {
-			n = n / 2;
 			int binResult = n % 2;
+			n = n / 2;
 			String binResultString = String.valueOf(binResult);
 			return calculaBinario(n) + binResultString;
 		}
